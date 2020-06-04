@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.form-header {
+  background-color: #F4F4F4;
+  padding: 2em 1.5em;
+  border-radius: 1.5em;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.20);
+}
+
+.form-header h2 {
+  color: #737AB3;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.form-header p {
+  color: #575757;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+form input, select {
+  height: 50px !important;
+  border-radius: 0.75rem !important;
+  color: #828282 !important;
+  border-color: #828282 !important;
+}
+
+form input:focus, select:focus {
+  box-shadow: 0 0 0 0.2rem rgba(115,122,179,0.5) !important;
+}
+
+form label {
+  color: #828282 !important;
+  font-weight: 500;
+}
+
+.btn {
+  width: 100%;
+}
+
+.btn-primary {
+  border-radius: 2em;
+  background-color: #737AB2 !important;
+  border: 2px solid transparent !important;
+  box-shadow: 0 0 0 0;
+  transition: color 0.5s, border 0.5s, background-color 0.5s, box-shadow 0.5s;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  color: #737AB2 !important;
+  border-radius: 2em;
+  background-color: transparent !important;
+  border: 2px solid #737AB2 !important;
+  box-shadow: 0 0 0 0.2rem rgba(115,122,179,0.5) !important;
+}
+
+.btn-primary:focus {
+  color: #737AB2;
+  border-radius: 2em;
+  background-color: transparent !important;
+  border: 2px solid #737AB2 !important;
+  box-shadow: 0 0 0 0.2rem rgba(115,122,179,0.5) !important;
+}
+
+.btn-primary:active {
+  color: #737AB2;
+  border-radius: 2em;
+  background-color: transparent !important;
+  border: 2px solid #737AB2 !important;
+  box-shadow: 0 0 0 0.2rem rgba(115,122,179,0.5) !important;
+}
+
+.bl {
+ border-right: 2px solid #AFAFAF;
+}
+
+.title-header {
+  color: #1E1E1E;
+  font-size: 1.75em;
+}
+
+.title {
+  color: #1E1E1E;
+  font-size: 2em;
+}
+
+.text-header {
+  color: #828282;
+  font-size: 1.25em;
+  padding-bottom: 1em;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+}
+
+.section-bg-dark {
+  background-color: #F4F5F9;
+}
+
+.icon-about {
+  width: 60px;
+  height: 60px;
+  background-color: #E7E9FF;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #A575B3;
+  font-size: 2em;
+}
+
+.center-about div {
+  text-align: center;
+}
+
+.title-about {
+  color: #1E1E1E;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 1em 0;
+}
+
+.text-about {
+  color: #828282;
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 1.8em;
+}
+
+.p-about {
+  padding: 0 2em;
+}
+
+.p-about-star {
+  padding: 0 2em;
+}
+
+.card-testimony {
+  background-color: #FFF;
+  padding: 2em 1.5em;
+  margin: 2em 2em;
+  border-radius: 1.5em;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+}
+
+.card-testimony article {
+  padding-top: 2em;
+}
+
+.img-testimony {
+  border-radius: 100%;
+}
+
+.text-testimony {
+  color: #1E1E1E;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.8em;
+  padding: 2.5em 1em;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.group-testimony {
+  padding: 2.5em 0;
+}
+
+.text-name {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #515ED6;
+}
+
+.text-profession {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #1E1E1E;
+}
+
+.card {
+  border: 0;
+  border-radius: 0;
+}
+
+.card-body {
+  padding: 3em 1.5em;
+}
+
+.card-title {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
+  color: #1E1E1E !important;
+  font-weight: 700;
+  font-size: 2em !important;
+}
+
+.card-text {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
+  color: #1E1E1E !important;
+  font-weight: 500 !important;
+  font-size: 1em !important;
+  padding-bottom: 1em;
+}
+
+.card-link {
+  border-radius: 2em;
+  color: #FFF;
+  text-align: center;
+  padding: 1em 3.5em;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
+  background-color: #737AB2 !important;
+  border: 2px solid transparent !important;
+  box-shadow: 0 0 0 0;
+  font-weight: 700;
+  transition: color 0.5s, border 0.5s, background-color 0.5s, box-shadow 0.5s;
+}
+
+.card-link:hover {
+  color: #737AB2;
+  border-radius: 2em;
+  background-color: transparent !important;
+  border: 2px solid #737AB2 !important;
+  box-shadow: 0 0 0 0.2rem rgba(115,122,179,0.5) !important;
+}
+
+.card-link:focus {
+  color: #737AB2;
+  border-radius: 2em;
+  background-color: transparent !important;
+  border: 2px solid #737AB2 !important;
+  box-shadow: 0 0 0 0.2rem rgba(115,122,179,0.5) !important;
+}
+
+.card-link:active {
+  color: #737AB2;
+  border-radius: 2em;
+  background-color: transparent !important;
+  border: 2px solid #737AB2 !important;
+  box-shadow: 0 0 0 0.2rem rgba(115,122,179,0.5) !important;
+}
+
+@media (min-width: 768px) {
+  .p-about {
+    padding: 0 4em;
+  }
+  
+  .card-testimony {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text-testimony {
+    font-size: 1em;
+    padding: 5em 1.5em;
+    height: 250px;
+  }
+
+  .card-body {
+    padding: 9em 7em;
+  }
+
+  .form-header {
+    padding: 2.5em 3em;
+    margin-left: 1em;
+  }
+
+  .title-header {
+    color: #1E1E1E;
+    font-size: 2.5em;
+    padding-bottom: 0.25em;
+  }
+
+  .center {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+}
