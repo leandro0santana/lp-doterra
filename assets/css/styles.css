@@ -242,23 +242,19 @@ form label {
   box-shadow: 0 0 0 0.2rem rgba(115,122,179,0.5) !important;
 }
 
-.card-link:focus {
-  color: #737AB2;
-  border-radius: 2em;
-  background-color: transparent !important;
-  border: 2px solid #737AB2 !important;
-  box-shadow: 0 0 0 0.2rem rgba(115,122,179,0.5) !important;
+.title-thank {
+  color: #1E1E1E;
+  font-size: 1.5em;
+  padding-bottom: 1.5em;
 }
 
-.card-link:active {
+.text-thank {
   color: #737AB2;
-  border-radius: 2em;
-  background-color: transparent !important;
-  border: 2px solid #737AB2 !important;
-  box-shadow: 0 0 0 0.2rem rgba(115,122,179,0.5) !important;
+  font-size: 1.35em;
+  font-weight: 700;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .p-about {
     padding: 0 4em;
   }
@@ -293,5 +289,19 @@ form label {
     display: flex;
     justify-content: start;
     align-items: center;
+  }
+
+  .title-thank {
+    color: #1E1E1E;
+    font-size: 1.5em;
+    max-width: 400px;
+    padding-bottom: 1.5em;
+  }
+  
+  .text-thank {
+    color: #737AB2;
+    font-size: 1.35em;
+    font-weight: 700;
+    max-width: 320px;
   }
 }
