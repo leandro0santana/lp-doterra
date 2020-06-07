@@ -71,14 +71,6 @@ form label {
   box-shadow: 0 0 0 0.2rem rgba(115,122,179,0.5) !important;
 }
 
-.btn-primary:active {
-  color: #737AB2;
-  border-radius: 2em;
-  background-color: transparent !important;
-  border: 2px solid #737AB2 !important;
-  box-shadow: 0 0 0 0.2rem rgba(115,122,179,0.5) !important;
-}
-
 .bl {
  border-right: 2px solid #AFAFAF;
 }
